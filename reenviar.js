@@ -150,7 +150,7 @@ const stringSession = new StringSession(sessionString);
           textoOriginal = traducirTexto(textoOriginal);
 
           // ✅ Agregar tus propios enlaces
-          const textoFinal = `${textoOriginal.trim()}\n\n✅👤 Contacto: @ProgramadorMillonary\n✅📥 Regístrate aquí: https://t.me/Yefersornersbooms`;
+          const textoFinal = `${textoOriginal.trim()}\n\n✅👤 Contacto: @ProgramadorMillonary\n✅ Para Subscripcion VIP: @ProgramadorMillonary \n✅📥 Regístrate aquí: https://www.binance.com/referral/earn-together/refertoearn2000usdc/claim?hl=en&ref=GRO_14352_LM6IL&utm_source=referralmode`;
 
           // Enviar mensaje editado al canal de destino
           await client.sendMessage(canalDestino.entity, { message: textoFinal });
